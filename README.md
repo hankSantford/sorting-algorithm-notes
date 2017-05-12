@@ -22,7 +22,7 @@ theory&amp;code implementation
 利用Θ以产生一个威尔逊区间，这个测试模型也可以作为一个得分测试。
 威尔逊区间的置信均值表示为：(P ̂+Z^2/2n)/(1+1/n Z^2 )
 在实际的排名运算中我们取威尔逊区间的下边界作为排序的标量以解决排序问题。著名网站Reddit的排名算法就是利用威尔逊区间下界作为排序标量完成的。 
-参考资料：
+## 参考资料：
 维基百科：Binomial proportion confidence interval
 （https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval）
 阮一峰的博客：基于用户投票的排名算法（五）：威尔逊区间（http://www.ruanyifeng.com/blog/2012/03/ranking_algorithm_wilson_score_interval.html）；
